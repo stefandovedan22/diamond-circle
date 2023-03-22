@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="250.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.scene.ResultsViewController">
+   <children>
+      <ComboBox fx:id="comboBox" layoutX="14.0" layoutY="14.0" onAction="#boxAction" prefHeight="40.0" prefWidth="300.0" style="-fx-border-color: black;" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0" />
+      <Label fx:id="printLabel" alignment="TOP_LEFT" layoutX="15.0" layoutY="164.0" prefHeight="165.0" prefWidth="770.0" style="-fx-border-color: black;" textFill="#a620ba" wrapText="true" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font name="Microsoft JhengHei" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
